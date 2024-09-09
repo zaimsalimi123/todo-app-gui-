@@ -18,7 +18,7 @@ while True:
 
         functions.write_todos(todos)
 
-        print(f"{todo} was added to the list.")
+        print(f"Todo {todo} was added to the list.")
     elif user_action.startswith('show'):
 
         todos = functions.get_todos()
